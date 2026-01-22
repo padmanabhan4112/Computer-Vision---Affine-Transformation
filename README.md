@@ -18,3 +18,10 @@ From the above, we can use an Affine Transformation to express:
 
 you can see that, in essence, an Affine Transformation represents a relation between two images.
 
+# 2. Computer-Vision---Gaussian Filter
+Filter types
+1. Mean filter (box)
+2. Weighted mean
+3. Gaussian
+
+<img width="701" height="369" alt="image" src="https://github.com/user-attachments/assets/1807597a-bf1e-4b09-b572-f9cedde72ef0" />
