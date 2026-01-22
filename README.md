@@ -27,7 +27,8 @@ Filter types
 <img width="701" height="369" alt="image" src="https://github.com/user-attachments/assets/1807597a-bf1e-4b09-b572-f9cedde72ef0" />
 
 # 3. Computer-Vision---Image compression using SVD math function
-U, S, Vh = np.linalg.svd(src, full_matrices=False)
-k = 25
 compressed_img = np.dot(U[:, :k], np.dot(np.diag(S[:k]), Vh[:k, :]))
+
 <img width="596" height="401" alt="image" src="https://github.com/user-attachments/assets/059d6c48-d2a0-4303-a816-7456dd163e07" />
+
+
