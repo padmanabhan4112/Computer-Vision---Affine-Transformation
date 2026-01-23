@@ -32,11 +32,12 @@ From the above, we can use an Affine Transformation to express:
 
 you can see that, in essence, an Affine Transformation represents a relation between two images.
 
+# 2. Computer-Vision---Gaussian Filter
+
 <img width="635" height="378" alt="image" src="https://github.com/user-attachments/assets/91d86fbd-60d6-45be-b944-7c5fa1d8264c" />
 
 <img width="709" height="350" alt="image" src="https://github.com/user-attachments/assets/f343cccc-b934-43a9-a2b8-556156cacfe0" />
 
-# 2. Computer-Vision---Gaussian Filter
 Filter types
 1. Mean filter (box)
 2. Weighted mean
@@ -48,5 +49,6 @@ Filter types
 compressed_img = np.dot(U[:, :k], np.dot(np.diag(S[:k]), Vh[:k, :]))
 
 <img width="596" height="401" alt="image" src="https://github.com/user-attachments/assets/059d6c48-d2a0-4303-a816-7456dd163e07" />
+
 
 
