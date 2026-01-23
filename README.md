@@ -32,6 +32,10 @@ From the above, we can use an Affine Transformation to express:
 
 you can see that, in essence, an Affine Transformation represents a relation between two images.
 
+<img width="680" height="414" alt="image" src="https://github.com/user-attachments/assets/b02e164f-32fc-453b-aa9e-cbb94e8546ce" />
+
+<img width="740" height="427" alt="image" src="https://github.com/user-attachments/assets/3b0b2bb7-3941-43d7-8530-4bff21fd02f9" />
+
 # 2. Computer-Vision---Gaussian Filter
 
 <img width="635" height="378" alt="image" src="https://github.com/user-attachments/assets/91d86fbd-60d6-45be-b944-7c5fa1d8264c" />
@@ -49,6 +53,7 @@ Filter types
 compressed_img = np.dot(U[:, :k], np.dot(np.diag(S[:k]), Vh[:k, :]))
 
 <img width="596" height="401" alt="image" src="https://github.com/user-attachments/assets/059d6c48-d2a0-4303-a816-7456dd163e07" />
+
 
 
 
